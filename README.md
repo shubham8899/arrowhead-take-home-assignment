@@ -28,6 +28,7 @@ Fine tuning transformer based NLP model (BART pretrained on CNN DailyMail) for t
 - Feature extraction, hyperparameter specification and training is performed to fine tune the baseline model on the train set. 
 - Two versions with 1 epoch and 4 epochs are saved and evaluated.
 - No more epochs are run to avoid overfitting (train loss is significantly larger than validation loss).
+- Trained weight files can be found in this [Google Drive Folder](https://drive.google.com/drive/folders/1OwEki57MnUG3wyXL7Y5ZxmY-JAzSBTKP?usp=sharing) and can be added to colab.
 
 ## Evaluation
 - Evaluation of the finetuned version is done in a similar manner to the baseline model.
