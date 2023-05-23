@@ -26,7 +26,7 @@ Fine tuning transformer based NLP model (BART pretrained on CNN DailyMail) for t
 
 ## Finetuning
 - Feature extraction, hyperparameter specification and training is performed to fine tune the baseline model on the train set. 
-- Two versions with 1 epoch and 3 epochs are saved and evaluated.
+- Two versions with 1 epoch and 4 epochs are saved and evaluated.
 - No more epochs are run to avoid overfitting (train loss is significantly larger than validation loss).
 
 ## Evaluation
