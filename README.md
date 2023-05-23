@@ -34,6 +34,14 @@ Fine tuning transformer based NLP model (BART pretrained on CNN DailyMail) for t
 - Evaluation of the finetuned version is done in a similar manner to the baseline model.
 - Results are added to the results CSV.
 
+## Results
+|          Model          |    Rouge1    |    Rouge2    | RougeL       |   RougeLSum  |
+|:-----------------------:|:------------:|:------------:|--------------|:------------:|
+|    **bart_baseline**    | 0.3435677847 | 0.2380172272 | 0.2576727384 | 0.2574992535 |
+| **bart_finetuned_1_ep** | 0.7251790845 | 0.6333551903 | 0.5040577712 | 0.5038004591 |
+| **bart_finetuned_4_ep** | 0.7713235914 | 0.6922320647 | 0.5582397274 | 0.5588417849 |               
+
+
 ## Run Locally
 Recommend running on Google Colab using links above. Running these commands would help run this model locally.
 
